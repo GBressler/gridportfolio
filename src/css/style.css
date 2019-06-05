@@ -2,19 +2,17 @@
   background: #000;
   color: #fff; }
 
-/*#laptop {
-  background-image: url('../img/Laptop Store.jpg');
-  background-size: cover;
-  background-position: center;
-}*/
+#bg-top {
+  background-color: #563d7c;
+}
 
-#laptop a img{
-  /*background-image: url('../img/Laptop Store.jpg');*/
+/*#laptop a img{
+  /*background-image: url('../img/Laptop Store.jpg');
   size: cover;
   position: center;
   width: 100%;
   height: auto;
-}
+}*/
 
 #main-header img {
   width: 100%;

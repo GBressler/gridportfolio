@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
   <link rel="stylesheet" href="css/style.css">
+  <!--Merriweather for body, etc and Popins for Nav and Headers-->
 </head>
 <body>
   <div class="container">
@@ -19,12 +20,14 @@
         </div>
         <div class="col-lg-8 col-md-7">
           <div class="d-flex flex-column">
-            <div class="p-5 bg-dark text-white">
+            <div class="p-5 text-white" id="bg-top">
               <div class="name d-flex flex-row justify-content-between align-items-center">
-                <h1 class="display-4">Greg B</h1>
-                <div><a href="https://www.linkedin.com/in/gregbressler/" class="text-white"><i class="fa fa-linkedin"></i></a></div>
-                <div><a href="" class="text-white"><i class="fa fa-twitter"></i></a></div>
-                <div><a href="https://github.com/GBressler" class="text-white"><i class="fa fa-github"></i></a></div>
+                <h1 class="display-4">Greg Bressler</h1>
+                <div><a href="https://www.linkedin.com/in/gregbressler/" target="_blank" class="text-white"><img src="img/linkedin-logo.svg"></a></div>
+                <div><a href="" class="text-white"><img src="img/resume.svg" alt="Resume" ></a></div>
+                <!--<div><a href="" class="text-white"><img src="img/resume-edit-2.svg" alt="" ></a></div>-->
+                <div><a href="https://github.com/GBressler" target="_blank" class="text-white"><img src="img/github.svg" alt="" ></a></div>
+                <!--<div><a href="https://github.com/GBressler" class="text-white"><i class="fa fa-github"></i></a></div>-->
               </div>
             </div>
 
@@ -57,46 +60,47 @@
     <div id="home" class="collapse show">
       <div class="card card-body bg-primary text-white py-5">
         <h2>Welcome to my page</h2>
-        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, quia.</p>
+        <p class="lead">Hi, there!  Thanks for coming by.  While you're here please have a look at some of my work and let me know how I can help with your website needs.</p>
       </div>
 
       <div class="card card-body py-5">
         <h3>My Skills</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum nulla et, modi harum hic deserunt.</p>
+        <p>Here are some of the skills and tools that I have picked up and refined over the last few years.</p>
         <hr>
         <h4>HTML</h4>
-       
         <h4>CSS</h4>
-        
         <h4>JavaScript</h4>
-        
         <h4>PHP</h4>
-        
-        <h4>Python</h4>
         <h4>Pug</h4>
         <h4>MySQL</h4>
+        <h4>Firebase</h4>
         <h4>Wordpress</h4>
         <h4>Bootstrap</h4>
         <h4>React</h4>
-        
+        <h4>Node</h4>
       </div>
     </div>
 
     <!-- RESUME -->
     <div id="resume" class="collapse">
       <div class="card card-body bg-success text-white py-5">
-        <h2>My Resume</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo nobis ut labore iure tempore qui!</p>
+        <h2>My Resume <a href="" class="text-white"><img src="img/resume.svg" alt="Resume"></a></h2>
+        <p>Everyones got one...ok well most people and here's mine!</p>
+        <div class="row">
+        <div class="col-md-6">
+          <a href="#" class="btn btn-outline-light"><i class="fa fa-cloud"></i> Download Resume</a>
+        </div>
+      </div>
       </div>
 
       <div class="card card-body py-5">
         <h3>Where have I worked?</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis eligendi, ex officia itaque tempora natus.</p>
+        <p>As far as web design and software development goes I've worked at the places listed here.</p>
         <div class="card-deck">
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Devmasters</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nostrum.</p>
+              <h4 class="card-title">Labs A Go Go</h4>
+              <p class="card-text">We build stuff to get the job done.</p>
               <p class="p-2 mb-3 bg-dark text-white">
                 Position: Full Stack Developer
               </p>
@@ -105,14 +109,14 @@
               </p>
             </div>
             <div class="card-footer">
-              <h6 class="text-muted">Dates: 2015 - 2017</h6>
+              <h6 class="text-muted">Dates: 2019 - current</h6>
             </div>
           </div>
 
           <div class="card">
             <div class="card-body">
-              <h4 class="card-title">Websites Pro</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nostrum.</p>
+              <h4 class="card-title">Greg Coded It</h4>
+              <p class="card-text">My (high) quality websites produced as a freelancer.</p>
               <p class="p-2 mb-3 bg-dark text-white">
                 Position: Front End Developer
               </p>
@@ -121,23 +125,7 @@
               </p>
             </div>
             <div class="card-footer">
-              <h6 class="text-muted">Dates: 2013 - 2015</h6>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">123 Designs</h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, nostrum.</p>
-              <p class="p-2 mb-3 bg-dark text-white">
-                Position: Designer
-              </p>
-              <p class="p-2 mb-3 bg-dark text-white">
-                Phone: (222) 222-2222
-              </p>
-            </div>
-            <div class="card-footer">
-              <h6 class="text-muted">Dates: 2010 - 2013</h6>
+              <h6 class="text-muted">Dates: 2017 - current</h6>
             </div>
           </div>
         </div>
@@ -154,9 +142,10 @@
       <div class="card card-body py-5">
         <h3>What have I built?</h3>
         <p>I've built plenty of stuff.  Here.  Have a look.</p>
-        <div class="row no-gutters">
+        <!--<div class="row no-gutters">-->
+        <div class="d-flex justify-content-between">
           <div class="col-lg-4">
-            <a href="#laptop" data-toggle="modal" data-target="#fireweed">
+            <a href="img/Fireweed Photography.jpg" data-toggle="modal" data-target="#fireweed">
               <img src="img/Fireweed Photography.jpg" alt="" class="img-fluid">
             </a>
           </div>
@@ -172,7 +161,8 @@
           </div>
         </div>
 
-        <div class="row no-gutters">
+        <!--<div class="row no-gutters">-->
+        <div class="d-flex justify-content-around">
           <div class="col-lg-4">
             <a href="img/RoboFriends.jpg" data-toggle="modal" data-target="#robots">
               <img src="img/RoboFriends.jpg" alt="" class="img-fluid">
@@ -208,21 +198,17 @@
           <a href="http://gregb.sgedu.site/brochure-site/" target="_blank" class="btn btn-outline-dark"><i class="fa fa-cloud"></i> Demo</a>
         </div>
       </div>
-      <h4 class="p-2">Skills Used</h4>
+      <h4 class="p-2">Skills & Tools Used</h4>
         <div class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti fugiat nesciunt, necessitatibus officiis voluptas et error sint eveniet, harum quia sunt ipsam soluta asperiores doloribus recusandae numquam? Vitae nulla, deserunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quasi officiis fuga numquam, distinctio saepe minus voluptates harum incidunt autem repellat ea nostrum beatae error obcaecati corporis quaerat dolores, deserunt.
+          Some of the skills and tools that I used in making this site were:  WordPress 5.2, cPanel and MySQL.
         </div>
       <h4 class="p-2">Objective</h4>
         <div class="p-2">
-          orem ipsum dolor sit amet, consectetur adipisicing elit. Ad quo fugiat omnis eaque beatae? Qui fugiat adipisci impedit, quos rem ratione provident eius aperiam et voluptatem. Quia enim, cupiditate placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quasi eum velit non in ex nihil labore vel hic. Blanditiis molestiae, obcaecati eaque magni. Velit quidem quis obcaecati doloremque illo!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero numquam est minus fugiat quisquam, sunt quibusdam! Dolores est, distinctio dignissimos laborum, rem consequuntur dolorum natus voluptatum perspiciatis ullam saepe quasi.
+          For this site my goal was to create a site that would cover all the bases for a photography business, while at the same time looking picture-perfect.
         </div>
       <h4 class="p-2">Results</h4>
         <div class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quo fugiat omnis eaque beatae? Qui fugiat adipisci impedit, quos rem ratione provident eius aperiam et voluptatem. Quia enim, cupiditate placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quasi eum velit non in ex nihil labore vel hic. Blanditiis molestiae, obcaecati eaque magni. Velit quidem quis obcaecati doloremque illo!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero numquam est minus fugiat quisquam, sunt quibusdam! Dolores est, distinctio dignissimos laborum, rem consequuntur dolorum natus voluptatum perspiciatis ullam saepe quasi.
+          In the end, the Fireweed Photography site is a site that would make any owner proud.  The site includes a nicely organized group of posts and pages that are searchable and can be quickly filtered by Topics or Categories.  Users can comment in the comment section.  Each page has a footer integrated with Google Maps to help clients find the store.  The site is integrated with Google Analytics so the owners can learn more about the visitors to better market their business. There is a portfolio section for the business to show off a few of their excellent pieces.  Finally, there is a working and contact form and a larger map on the Contact Page.
         </div>
       </div>
     </div>
@@ -249,21 +235,17 @@
           <a href="https://landing-page-of-the-year.herokuapp.com/" target="_blank" class="btn btn-outline-dark"><i class="fa fa-cloud"></i> Demo</a>
         </div>
       </div>
-      <h4 class="p-2">Skills Used</h4>
+      <h4 class="p-2">Skills & Tools Used</h4>
         <div class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti fugiat nesciunt, necessitatibus officiis voluptas et error sint eveniet, harum quia sunt ipsam soluta asperiores doloribus recusandae numquam? Vitae nulla, deserunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quasi officiis fuga numquam, distinctio saepe minus voluptates harum incidunt autem repellat ea nostrum beatae error obcaecati corporis quaerat dolores, deserunt.
+          The skills & tools used for this simple, yet elegant landing page were: HTML5, CSS3 & Mailchimp
         </div>
       <h4 class="p-2">Objective</h4>
         <div class="p-2">
-          orem ipsum dolor sit amet, consectetur adipisicing elit. Ad quo fugiat omnis eaque beatae? Qui fugiat adipisci impedit, quos rem ratione provident eius aperiam et voluptatem. Quia enim, cupiditate placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quasi eum velit non in ex nihil labore vel hic. Blanditiis molestiae, obcaecati eaque magni. Velit quidem quis obcaecati doloremque illo!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero numquam est minus fugiat quisquam, sunt quibusdam! Dolores est, distinctio dignissimos laborum, rem consequuntur dolorum natus voluptatum perspiciatis ullam saepe quasi.
+          The goal of this page was to make an attention-grabbing landing page where the user can sign-up for the mailing list of what will surely be The Biggest StartUp Event Of The Year.
         </div>
       <h4 class="p-2">Results</h4>
         <div class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quo fugiat omnis eaque beatae? Qui fugiat adipisci impedit, quos rem ratione provident eius aperiam et voluptatem. Quia enim, cupiditate placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quasi eum velit non in ex nihil labore vel hic. Blanditiis molestiae, obcaecati eaque magni. Velit quidem quis obcaecati doloremque illo!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero numquam est minus fugiat quisquam, sunt quibusdam! Dolores est, distinctio dignissimos laborum, rem consequuntur dolorum natus voluptatum perspiciatis ullam saepe quasi.
+          The end result is a fully functioning landing page that is connected to Mailchimp so the startup can easily acquire the emails of interested clients.  It would make any garage-toiling, future tech billionaire proud.
         </div>
       </div>
     </div>
@@ -290,21 +272,17 @@
           <a href="https://catch-o-the-day-gb.netlify.com/" target="_blank" class="btn btn-outline-dark"><i class="fa fa-cloud"></i> Demo</a>
         </div>
       </div>
-      <h4 class="p-2">Skills Used</h4>
+      <h4 class="p-2">Skills & Tools Used</h4>
         <div class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti fugiat nesciunt, necessitatibus officiis voluptas et error sint eveniet, harum quia sunt ipsam soluta asperiores doloribus recusandae numquam? Vitae nulla, deserunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quasi officiis fuga numquam, distinctio saepe minus voluptates harum incidunt autem repellat ea nostrum beatae error obcaecati corporis quaerat dolores, deserunt.
+          For this project I used quite a lot...including: HTML, CSS, Javascript, React & React Router, Local Storage, Facebook API Authentication and Firebase
         </div>
       <h4 class="p-2">Objective</h4>
         <div class="p-2">
-          orem ipsum dolor sit amet, consectetur adipisicing elit. Ad quo fugiat omnis eaque beatae? Qui fugiat adipisci impedit, quos rem ratione provident eius aperiam et voluptatem. Quia enim, cupiditate placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quasi eum velit non in ex nihil labore vel hic. Blanditiis molestiae, obcaecati eaque magni. Velit quidem quis obcaecati doloremque illo!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero numquam est minus fugiat quisquam, sunt quibusdam! Dolores est, distinctio dignissimos laborum, rem consequuntur dolorum natus voluptatum perspiciatis ullam saepe quasi.
+          The idea for this app is to allow a store or restaraunt owner to have more control of their inventory and make adjustments in real time.
         </div>
       <h4 class="p-2">Results</h4>
         <div class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quo fugiat omnis eaque beatae? Qui fugiat adipisci impedit, quos rem ratione provident eius aperiam et voluptatem. Quia enim, cupiditate placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quasi eum velit non in ex nihil labore vel hic. Blanditiis molestiae, obcaecati eaque magni. Velit quidem quis obcaecati doloremque illo!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero numquam est minus fugiat quisquam, sunt quibusdam! Dolores est, distinctio dignissimos laborum, rem consequuntur dolorum natus voluptatum perspiciatis ullam saepe quasi.
+          This final product is a web app that lets clients place orders and the app then makes a detailed invoice which updates live as orders are placed.  The owner can change prices to meet demand, add & update inventory and finally mark an item as "Sold Out" when the last of a specified item is sold. The app uses a combination of local browser storage and Google's online database Firebase...and React...because it's so hot right now.
         </div>
       </div>
     </div>
@@ -331,21 +309,17 @@
           <a href="#" target="_blank" class="btn btn-outline-dark"><i class="fa fa-cloud"></i> Demo</a>
         </div>
       </div>
-      <h4 class="p-2">Skills Used</h4>
+      <h4 class="p-2">Skills & Tools Used</h4>
         <div class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti fugiat nesciunt, necessitatibus officiis voluptas et error sint eveniet, harum quia sunt ipsam soluta asperiores doloribus recusandae numquam? Vitae nulla, deserunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quasi officiis fuga numquam, distinctio saepe minus voluptates harum incidunt autem repellat ea nostrum beatae error obcaecati corporis quaerat dolores, deserunt.
+          With this project I used Tachyons 4.11, React 16.8 and the Robohash API
         </div>
       <h4 class="p-2">Objective</h4>
         <div class="p-2">
-          orem ipsum dolor sit amet, consectetur adipisicing elit. Ad quo fugiat omnis eaque beatae? Qui fugiat adipisci impedit, quos rem ratione provident eius aperiam et voluptatem. Quia enim, cupiditate placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quasi eum velit non in ex nihil labore vel hic. Blanditiis molestiae, obcaecati eaque magni. Velit quidem quis obcaecati doloremque illo!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero numquam est minus fugiat quisquam, sunt quibusdam! Dolores est, distinctio dignissimos laborum, rem consequuntur dolorum natus voluptatum perspiciatis ullam saepe quasi.
+          The idea of this project is to be able to search through the vast sea of your Robofriends.
         </div>
       <h4 class="p-2">Results</h4>
         <div class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quo fugiat omnis eaque beatae? Qui fugiat adipisci impedit, quos rem ratione provident eius aperiam et voluptatem. Quia enim, cupiditate placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quasi eum velit non in ex nihil labore vel hic. Blanditiis molestiae, obcaecati eaque magni. Velit quidem quis obcaecati doloremque illo!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero numquam est minus fugiat quisquam, sunt quibusdam! Dolores est, distinctio dignissimos laborum, rem consequuntur dolorum natus voluptatum perspiciatis ullam saepe quasi.
+          The final site took a file full of information about our Robofriends, read it and produced an image for each Robofriend in the file.  Each Robofriend has a nice animation and we have a search bar for a quick search and filtering of our robots.
         </div>
       </div>
     </div>
@@ -372,21 +346,17 @@
           <a href="#" target="_blank" class="btn btn-outline-dark"><i class="fa fa-cloud"></i> Demo</a>
         </div>
       </div>
-      <h4 class="p-2">Skills Used</h4>
+      <h4 class="p-2">Skills & Tools Used</h4>
         <div class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti fugiat nesciunt, necessitatibus officiis voluptas et error sint eveniet, harum quia sunt ipsam soluta asperiores doloribus recusandae numquam? Vitae nulla, deserunt! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi quasi officiis fuga numquam, distinctio saepe minus voluptates harum incidunt autem repellat ea nostrum beatae error obcaecati corporis quaerat dolores, deserunt.
+          With this site I used HTML, Javascript and Node.
         </div>
       <h4 class="p-2">Objective</h4>
         <div class="p-2">
-          orem ipsum dolor sit amet, consectetur adipisicing elit. Ad quo fugiat omnis eaque beatae? Qui fugiat adipisci impedit, quos rem ratione provident eius aperiam et voluptatem. Quia enim, cupiditate placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quasi eum velit non in ex nihil labore vel hic. Blanditiis molestiae, obcaecati eaque magni. Velit quidem quis obcaecati doloremque illo!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero numquam est minus fugiat quisquam, sunt quibusdam! Dolores est, distinctio dignissimos laborum, rem consequuntur dolorum natus voluptatum perspiciatis ullam saepe quasi.
+          This was largely an experiment to get a small site up and running use only Node and the basics.
         </div>
       <h4 class="p-2">Results</h4>
         <div class="p-2">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quo fugiat omnis eaque beatae? Qui fugiat adipisci impedit, quos rem ratione provident eius aperiam et voluptatem. Quia enim, cupiditate placeat!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita quasi eum velit non in ex nihil labore vel hic. Blanditiis molestiae, obcaecati eaque magni. Velit quidem quis obcaecati doloremque illo!
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero numquam est minus fugiat quisquam, sunt quibusdam! Dolores est, distinctio dignissimos laborum, rem consequuntur dolorum natus voluptatum perspiciatis ullam saepe quasi.
+          The end result of this project is a site that reads in inventory and product descriptions from a file and inserts the information into card templates. The templates are displayed neatly with a brief description of each laptop and a link to a page featuring the laptop.  All routing is done completely through Node.
         </div>
       </div>
     </div>
@@ -396,7 +366,7 @@
     <div id="contact" class="collapse">
       <div class="card card-body bg-danger text-white py-5">
         <h2>Contact</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, dignissimos?</p>
+        <p>Do you need a website?...I know it's a silly question.  Of course you do.  Whether you're looking for a new site or to improve on one you already have, I'd love to help.</p>
       </div>
 
       <div class="card card-body py-5">

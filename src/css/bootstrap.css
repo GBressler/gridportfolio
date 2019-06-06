@@ -1664,8 +1664,8 @@ fieldset[disabled] a.btn {
   background-image: none;
   border-color: #f8f9fa; }
   .btn-outline-light:hover {
-    color: #fff;
-    background-color: #f8f9fa;
+    color: #343a40;
+    background-color: #f8f9fa;               /*#f8f9fa*/
     border-color: #f8f9fa; }
   .btn-outline-light:focus, .btn-outline-light.focus {
     box-shadow: 0 0 0 3px rgba(248, 249, 250, 0.5); }
@@ -1674,9 +1674,11 @@ fieldset[disabled] a.btn {
     background-color: transparent; }
   .btn-outline-light:active, .btn-outline-light.active,
   .show > .btn-outline-light.dropdown-toggle {
-    color: #fff;
+    color: #343a40;
     background-color: #f8f9fa;
     border-color: #f8f9fa; }
+
+
 
 .btn-outline-dark {
   color: #343a40;

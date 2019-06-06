@@ -6,13 +6,15 @@
   background-color: #563d7c;
 }
 
-/*#laptop a img{
-  /*background-image: url('../img/Laptop Store.jpg');
-  size: cover;
-  position: center;
-  width: 100%;
-  height: auto;
-}*/
+#btn-outline-light {
+  color: #f8f9fa;
+  background-color: transparent;
+  background-image: none;
+  border-color: #f8f9fa; }
+  #btn-outline-light:hover {
+    color: #28a745;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa; }
 
 #main-header img {
   width: 100%;

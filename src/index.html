@@ -9,7 +9,9 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Poppins&display=swap" rel="stylesheet">
   <!--Merriweather for body, etc and Popins for Nav and Headers-->
+ 
 </head>
 <body>
   <div class="container">
@@ -22,7 +24,7 @@
           <div class="d-flex flex-column">
             <div class="p-5 text-white" id="bg-top">
               <div class="name d-flex flex-row justify-content-between align-items-center">
-                <h1 class="display-4">Greg Bressler</h1>
+                <h1 id="name" class="display-4">Greg Bressler</h1>
                 <div><a href="https://www.linkedin.com/in/gregbressler/" target="_blank" class="text-white"><img src="img/linkedin-logo.svg"></a></div>
                 <div><a href="" class="text-white"><img src="img/resume.svg" alt="Resume" ></a></div>
                 <!--<div><a href="" class="text-white"><img src="img/resume-edit-2.svg" alt="" ></a></div>-->
@@ -59,25 +61,71 @@
     <!-- HOME -->
     <div id="home" class="collapse show">
       <div class="card card-body bg-primary text-white py-5">
-        <h2>Welcome to my page</h2>
+        <h2 class="poppins">Welcome to my page</h2>
         <p class="lead">Hi, there!  Thanks for coming by.  While you're here please have a look at some of my work and let me know how I can help with your website needs.</p>
       </div>
 
       <div class="card card-body py-5">
         <h3>My Skills</h3>
         <p>Here are some of the skills and tools that I have picked up and refined over the last few years.</p>
-        <hr>
-        <h4>HTML</h4>
-        <h4>CSS</h4>
-        <h4>JavaScript</h4>
-        <h4>PHP</h4>
-        <h4>Pug</h4>
-        <h4>MySQL</h4>
-        <h4>Firebase</h4>
-        <h4>Wordpress</h4>
-        <h4>Bootstrap</h4>
-        <h4>React</h4>
-        <h4>Node</h4>
+          <!--Use porfolio grid instead-->
+          <!--<div class="d-flex flex-row text-white align-items-stretch text-center">            
+            <div class="port-item p-2">
+              <img src="img/html5.svg" alt="">
+            </div>
+            <div class="port-item p-2">
+              <img src="img/css3-2.svg" alt="">
+            </div>
+            <div class="port-item p-2">
+              <img src="img/javascript-js-seeklogo.com.svg" alt="">
+            </div>
+            <div class="port-item p-2" >
+              <img src="img/react-seeklogo.com.svg" alt="">
+            </div>
+          </div>
+          <div class="d-flex flex-row text-white align-items-stretch text-center">
+            <div class="port-item p-2">
+              <img src="img/wordpress-1.svg" alt="">
+            </div>
+             <div   class="port-item p-2">
+              <img src="img/nodejs-4.svg" alt="">
+            </div>
+            <div class="port-item p-2">
+              <img src="img/bootstrap-seeklogo2.png" alt="">
+            </div>
+            <div class="port-item py-2">
+              <img src="img/mysql-3.svg" alt="">
+            </div>
+          </div>-->
+
+        <div class="d-flex align-items-center py-2">
+          <div class="col-lg-3 d-flex justify-content-center">
+            <img src="img/html5.svg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-3 d-flex justify-content-center">
+            <img src="img/css3-2.svg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-3 d-flex justify-content-center">
+            <img src="img/javascript-js-seeklogo.com.svg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-3 d-flex justify-content-center">
+            <img src="img/react-seeklogo.com.svg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="d-flex align-items-center py-2">
+          <div class="col-lg-3 d-flex justify-content-center">
+            <img src="img/wordpress-1.svg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-3 d-flex justify-content-center">
+            <img src="img/nodejs-4.svg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-3 d-flex justify-content-center">
+            <img src="img/bootstrap-seeklogo2.png" alt="" class="img-fluid ">
+          </div>
+          <div class="col-lg-3 d-flex justify-content-center">
+            <img src="img/mysql-3.svg" alt="" class="img-fluid">
+          </div>
+        </div>
       </div>
     </div>
 

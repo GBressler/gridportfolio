@@ -1,6 +1,5 @@
 .poppins{
   font-family: 'Poppins', sans-serif;
-  font-size: 24px;
 }
 
 #name{
@@ -11,6 +10,16 @@
 .merriweather{
   font-family: 'Merriweather', serif;
   font-size: 24px;
+}
+
+.merriweather-body{
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+}
+
+.merriweather-footer{
+  font-family: 'Merriweather', serif;
+  font-size: 14px;
 }
 
 .bg-black {
@@ -30,6 +39,10 @@
     color: #28a745;
     background-color: #f8f9fa;
     border-color: #f8f9fa; }
+
+.align-vert-center {
+  margin: 0 auto;
+}
 
 #main-header img {
   width: 100%;
